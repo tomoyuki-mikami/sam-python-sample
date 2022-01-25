@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-python-sample"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-19pl1mpmnz7n3"
+s3_prefix = "sam-python-sample"
+region = "ap-northeast-1"
+profile = "tmikami_rd"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
